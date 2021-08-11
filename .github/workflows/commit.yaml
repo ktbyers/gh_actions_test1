@@ -30,3 +30,7 @@ jobs:
       - name: Black
         run: |
           black .
+
+      - name: Pylama
+        run: |
+          pylama .
