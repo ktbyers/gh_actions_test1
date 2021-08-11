@@ -34,3 +34,7 @@ jobs:
       - name: Linting
         run: |
           pylama .
+
+      - name: pytest
+        run: |
+          py.test -s -v -x tests
